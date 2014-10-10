@@ -1,0 +1,65 @@
+body{
+	background-color: #dcddde;
+}
+
+#banner{
+	width: 100%;
+	height: 900px;
+}
+
+#banner .header{
+	width: 100%;
+	height: 150px;
+	background-color: #f9d65d;
+	box-shadow: 0px 5px 5px grey;
+
+	z-index: 2;
+}
+
+#banner .logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	z-index: 3;
+}
+
+#banner .main-image{
+	position: absolute;
+	top: 230px;
+	left: 0;
+	right: 0;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	z-index: 3;
+}
+
+#myCarousel{
+	height: 770px;
+	width: 100%;
+
+	z-index: 1;
+}
+
+#myCarousel .item > div{
+	height: 654px;
+	width: 100%;
+
+	background-size: cover;
+}
+
+#myCarousel .item:nth-child(1) > div{
+	background-image: url(../img/slide1.png);
+}
+#myCarousel .item:nth-child(2) > div{
+	background-image: url(../img/slide2.png);
+}
+#myCarousel .item:nth-child(3) > div{
+	background-image: url(../img/slide3.png);
+}
