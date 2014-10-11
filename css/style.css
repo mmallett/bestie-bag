@@ -1,5 +1,24 @@
+html, body{
+	min-width: 960px;
+}
+
 body{
 	background-color: #dcddde;
+}
+
+@font-face{
+	font-family: helvetica-light;
+	src: url(../fonts/helvetica-light.ttf);
+}
+
+@font-face{
+	font-family: helvetica-narrow;
+	src: url(../fonts/helvetica-narrow.ttf);
+}
+
+@font-face{
+	font-family: lobster;
+	src: url(../fonts/lobster.otf);
 }
 
 #banner{
@@ -30,7 +49,7 @@ body{
 
 #banner .main-image{
 	position: absolute;
-	top: 230px;
+	top: 150px;
 	left: 0;
 	right: 0;
 
@@ -44,11 +63,12 @@ body{
 	height: 770px;
 	width: 100%;
 
-	z-index: 1;
+	/*apparently box-shadow is z-index 0 no matter what*/
+	z-index: -1;
 }
 
 #myCarousel .item > div{
-	height: 654px;
+	height: 627px;
 	width: 100%;
 
 	background-size: cover;
@@ -62,4 +82,67 @@ body{
 }
 #myCarousel .item:nth-child(3) > div{
 	background-image: url(../img/slide3.png);
+}
+
+#girls{
+	
+	background-color: white;
+
+	text-align: center;
+
+	padding: 20px;
+	color: black;
+}
+
+#girls-border-top{
+	height: 11px;
+	width:100%;
+	background-image: url(../img/scallop_border.png);
+	background-repeat: repeat-x;
+}
+
+#girls-border-bottom{
+	height: 11px;
+	width:100%;
+	background-image: url(../img/scallop_border_inverted.png);
+	background-repeat: repeat-x;
+}
+
+#girls h2{
+	color: #79c9ca;
+	font-family: lobster;
+	font-size: 3em;
+}
+
+#girls p{
+	color: #7a7a7a;
+}
+
+#girls > div >  p{
+	font-size: 1.5em;
+}
+
+#girls > div > p > span{
+	color: #79c9ca;
+	font-family: lobster;
+	font-size: 1.25em;
+}
+
+.rachel-img{
+
+}
+
+.claire-img{
+	margin-top: -20px;
+}
+
+#contact{
+	text-align: center;
+}
+
+#footer{
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: purple;
 }
