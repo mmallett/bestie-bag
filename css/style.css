@@ -21,6 +21,10 @@ body{
 	src: url(../fonts/lobster.otf);
 }
 
+/*///////////////////////////////////////////////
+ header/banner/slideshow section
+//////////////////////////////////////////////*/
+
 #banner{
 	width: 100%;
 	height: 900px;
@@ -84,13 +88,18 @@ body{
 	background-image: url(../img/slide3.png);
 }
 
+/*///////////////////////////////////////////////
+ girls section
+//////////////////////////////////////////////*/
+
 #girls{
 	
 	background-color: white;
 
 	text-align: center;
 
-	padding: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	color: black;
 }
 
@@ -120,6 +129,11 @@ body{
 
 #girls > div >  p{
 	font-size: 1.5em;
+	margin: 0px;
+}
+#girls > div > p.last{
+	margin-top: -7px;
+	margin-bottom: 40px;
 }
 
 #girls > div > p > span{
@@ -128,17 +142,151 @@ body{
 	font-size: 1.25em;
 }
 
-.rachel-img{
-
+#girls .row p{
+	font-size: 1.2em;
+	font-style: italic;
+	
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.claire-img{
-	margin-top: -20px;
+#girls .row:last-child p{
+	max-width: none;
 }
+
+/* all images are different sizes..
+let the browser resize/center them*/
+.girl-img{
+	height: 300px;
+	width: 282px;
+
+	background-position: center center;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+.rachel > div{
+	background-image: url(../img/rachel.png);
+}
+.claire > div{
+	background-image: url(../img/claire.png);
+}
+.katie > div{
+	background-image: url(../img/katie.png);
+}
+.vanessa > div{
+	background-image: url(../img/vanessa.png);
+}
+.zoey > div{
+	background-image: url(../img/zoey.png);
+}
+
+.rachel span{
+	color: #e83a7a;
+}
+.claire span{
+	color: #37a1b6;
+}
+.katie span{
+	color: #f54d1c;
+}
+.vanessa span{
+	color: #6a1868;
+}
+.zoey span{
+	color: #d9b11a;
+}
+
+/*///////////////////////////////////////////////
+ contact section
+//////////////////////////////////////////////*/
 
 #contact{
 	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: #7a7a7a;
 }
+
+#contact h2{
+	color: #774c8a;
+	font-family: lobster;
+	font-size: 3em;
+}
+
+#contact p{
+	font-size: 1.4em;
+	margin: 0px;
+}
+
+#contact > div > div{
+	width: 100%;
+	margin-top: 50px;
+	padding: 50px 5px;
+
+	border-top: 2px #7a7a7a solid;
+}
+
+
+#contact > div > div p{
+	font-size: 1.75em;
+	font-style: italic;
+}
+
+#contact strong{
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#contact form{
+	padding: 30px 0px;
+
+}
+
+#contact input[type="text"]{
+	width: 650px;
+	height: 35px;
+	padding: 0px 10px;
+
+	border: 0px;
+
+	outline: none;
+
+	margin-bottom: 20px;
+}
+
+#contact form > p{
+	font-size: 1.4em;
+	color: #774c8a;
+	font-style: normal;
+	font-weight: normal;
+
+	margin: 25px 0px;
+}
+
+#contact label.radio-label{
+	font-color: #7a7a7a;
+	font-size: 1.4em;
+	font-weight: normal;
+
+}
+
+#contact button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	color: white;
+	background-color: #774c8a;
+	border: 0px;
+
+	padding: 5px 20px;
+}
+
+/*///////////////////////////////////////////////
+ footer section
+//////////////////////////////////////////////*/
 
 #footer{
 	width: 100%;
