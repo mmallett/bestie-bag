@@ -104,37 +104,38 @@
         <p>discount that you can use to become one of the <strong>very first to have a Bestie Bag!</strong></p>
 
         <form>
-          <input type="text" name="name" placeholder="Your Name"></input>
-          <input type="text" name="email" placeholder="Email Address"></input>
+          <input type="text" name="name" id="input-name" placeholder="Your Name"></input>
+          <input type="text" name="email" id="input-email" placeholder="Email Address"></input>
           <p>Who's your favorite Bestie?</p>
           <div>
             <div>
-              <input type="radio" name="bestie" id="radio-rachel"></input>
+              <input type="radio" name="bestie" value="rachel" checked id="radio-rachel"></input>
               <label for="radio-rachel" class="radio-label">Rachel</label>
             </div>
             <div>
-              <input type="radio" name="bestie" id="radio-claire"></input>
+              <input type="radio" name="bestie" value="claire" id="radio-claire"></input>
               <label for="radio-claire" class="radio-label">Claire</label>
             </div>
             <div>
-              <input type="radio" name="bestie" id="radio-katie"></input>
+              <input type="radio" name="bestie" value="katie" id="radio-katie"></input>
               <label for="radio-katie" class="radio-label">Katie</label>
             </div>
             <div>
-              <input type="radio" name="bestie" id="radio-vanessa"></input>
+              <input type="radio" name="bestie" value="vanessa" id="radio-vanessa"></input>
               <label for="radio-vanessa" class="radio-label">Vanessa</label>
             </div>
             <div>
-              <input type="radio" name="bestie" id="radio-zoey"></input>
+              <input type="radio" name="bestie" value="zoey" id="radio-zoey"></input>
               <label for="radio-zoey" class="radio-label">Zoey</label>
             </div>
           </div>
-          <!-- <input type="radio" name="bestie">Claire</input>
-          <input type="radio" name="bestie">Katie</input>
-          <input type="radio" name="bestie">Vanessa</input>
-          <input type="radio" name="bestie">Zoey</input> -->
+          
           <button type="button">Become a Bestie!</button>
+
+          <div id="messagebox" display="none"><img src="img/spinner.gif"></img> Working...</div>
+
         </form>
+
       </div>
 
     </div>

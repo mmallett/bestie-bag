@@ -301,6 +301,22 @@ let the browser resize/center them*/
 	padding: 10px 30px;
 }
 
+#messagebox{
+	display: none;
+
+	text-align: center;
+	font-size: 1.4em;
+	margin-top: 10px !important;
+}
+
+#messagebox img{
+	width: 30px;
+}
+
+#messagebox.error{
+	color: red;
+}
+
 /*///////////////////////////////////////////////
  footer section
 //////////////////////////////////////////////*/
