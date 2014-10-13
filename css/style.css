@@ -186,13 +186,13 @@ let the browser resize/center them*/
 	color: #e83a7a;
 }
 .claire span{
-	color: #37a1b6;
+	color: #79c9ca;
 }
 .katie span{
 	color: #f54d1c;
 }
 .vanessa span{
-	color: #6a1868;
+	color: #774c8a;
 }
 .zoey span{
 	color: #d9b11a;
@@ -256,17 +256,32 @@ let the browser resize/center them*/
 	margin-bottom: 20px;
 }
 
-#contact form > p{
+#contact div > form > p{
 	font-size: 1.4em;
 	color: #774c8a;
 	font-style: normal;
 	font-weight: normal;
 
-	margin: 25px 0px;
+	margin: 10px 0px;
+	margin-top: -5px;
+}
+
+#contact form > div{
+	width: 700px;
+	padding: 0px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#contact form > div > div{
+	width: 19.5%;
+	display: inline-block;
 }
 
 #contact label.radio-label{
-	font-color: #7a7a7a;
+	color: #7a7a7a;
 	font-size: 1.4em;
 	font-weight: normal;
 
@@ -276,12 +291,14 @@ let the browser resize/center them*/
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 25px;
+	margin-top: 35px;
 	color: white;
+	font-style: italic;
+	font-size: 1.4em;
 	background-color: #774c8a;
 	border: 0px;
 
-	padding: 5px 20px;
+	padding: 10px 30px;
 }
 
 /*///////////////////////////////////////////////
