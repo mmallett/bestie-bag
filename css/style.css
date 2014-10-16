@@ -47,8 +47,8 @@ body{
 
 	width: 1280px;
 
-	/*margin-left: auto;
-	margin-right: auto;*/
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 
 	z-index: 3;
@@ -56,15 +56,15 @@ body{
 
 #banner .main-image{
 	position: absolute;
-	top: 150px;
+	top: 115px;
 	left: 0;
 	right: 0;
 
 	width: 1280px;
 
 	text-align: center;
-	/*margin-left: auto;
-	margin-right: auto;*/
+	margin-left: auto;
+	margin-right: auto;
 
 	z-index: 3;
 }
@@ -87,21 +87,22 @@ body{
 #myCarousel .item:nth-child(1) > div{
 	background-image: url(../img/slide1.png);
 }
+
 #myCarousel .item:nth-child(2) > div{
 	background-image: url(../img/slide2.png);
 }
+
 #myCarousel .item:nth-child(3) > div{
 	background-image: url(../img/slide3.png);
 }
 
 /*///////////////////////////////////////////////
  girls section
+
 //////////////////////////////////////////////*/
 
 #girls{
-	
 	background-color: white;
-
 	text-align: center;
 
 	padding-top: 60px;
@@ -137,6 +138,7 @@ body{
 	font-size: 1.5em;
 	margin: 0px;
 }
+
 #girls > div > p.last{
 	margin-top: -7px;
 	margin-bottom: 40px;
@@ -151,7 +153,7 @@ body{
 #girls .row p{
 	font-size: 1.2em;
 	font-style: italic;
-	
+
 	max-width: 300px;
 	margin-left: auto;
 	margin-right: auto;
@@ -234,7 +236,6 @@ let the browser resize/center them*/
 	border-top: 2px #7a7a7a solid;
 }
 
-
 #contact > div > div p{
 	font-size: 1.75em;
 	font-style: italic;
@@ -247,7 +248,6 @@ let the browser resize/center them*/
 
 #contact form{
 	padding: 30px 0px;
-
 }
 
 #contact input[type="text"]{
@@ -278,7 +278,6 @@ let the browser resize/center them*/
 	margin: 0px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 #contact form > div > div{
